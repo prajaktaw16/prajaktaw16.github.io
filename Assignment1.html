@@ -86,23 +86,23 @@ Between them, the training batches contain exactly 5000 images from each class</
       <div class="card-body">
           <h1 class="h4 mt-0 title">Step 1</h1>
           <p style="font-size:15px">Let's take a look at CIFAR-10 dataset classes.</p>
-          <img src = "images/CIFAR.jpg" alt="Image1" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/CIFAR.JPG" alt="Image1" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Step 2</h1>
           <p style="font-size:15px">Lets import libraries</p>
-          <img src = "images/imports.jpg" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/imports.JPG" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Step 3</h1>
           <p style="font-size:15px">Load Training Data</p>
           <p>Convert Python Image Library (PIL) format to PyTorch tensors</p>
           <p>Normalize the data by specifying a mean and standard deviation for each of the three channels.This will convert the data from [0,1] to [-1,1]</p>
           <p>Normalization helps speed up further conversions</p>
-          <img src = "images/normalization.jpg" alt="Image2" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
-          <img src = "images/normalization_op.jpg" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/normalization.JPG" alt="Image2" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/normalization_op.JPG" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Step 4</h1>
           <p style="font-size:15px">Show some of the training images</p>
-          <img src = "images/displaydata.jpg" alt="Image3" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/displaydata.JPG" alt="Image3" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Step 5</h1>
           <h2 class="h4 mt-0 title">Define a Convolutional Neural Network.</h2>
@@ -135,42 +135,42 @@ Between them, the training batches contain exactly 5000 images from each class</
 
           <h2 class="h4 mt-0 title">CNN model 1</h2>
           <p style="font-size:15px">Number of filters used here are 6, stride is 1 and padding 0. </p>
-          <img src = "images/model1.jpg" alt="Image5" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/model1.JPG" alt="Image5" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Original Model Accuracy</h1>
           <p style="font-size:15px">Following image displays the accuracy of 10000 test images,
           for 2 epochs. </p>
-          <img src = "images/accuracy_2epochs.jpg" alt="Image6" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/accuracy_2epochs.JPG" alt="Image6" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title">Let's Improve Accuracy of our model</h1>
           <p style="font-size:20px">Increase Epoch from 2 to 10.</p>
           <p>One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE. </p>
           <p>As the number of epochs increases, more number of times the weight are changed in the neural network and the curve goes from underfitting to optimal to overfitting curve.We need to make sure
           that we are not overshooting the epoch number.For now we will use 10 and observe the losses and accuracy again</p>
-          <img src = "images/10_Epoch_Original.jpg" alt="Image7" width="700" height="80" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/10_Epoch_Original.JPG" alt="Image7" width="700" height="80" style="margin-left: auto;margin-right: auto;display: block"></img>
           <p style="font-size:20px">Accuracy for 10 epochs</p>
           <p style="font-size:15px">Just by keeping the model same and increasing the epochs,we were able to train our model better and increase accuracy</p>
-          <img src = "images/accuracy_epoch10.jpg" alt="Image8" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/accuracy_epoch10.JPG" alt="Image8" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <p style="font-size:20px">Lets increase convolutional ayers from 2 - 4</p>
           <p style="font-size:15px">By Increasing the convolutional layers we increase the complexity of the network, thereby increasing the weights
           in the network.
           But one can only try increaing the layers if the dataset is large dataset like CIFAR-10, it will not work if the dataset is very small.
         </p>
-          <img src = "images/model_4_layers.jpg" alt="Image9" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/model_4_layers.JPG" alt="Image9" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <p style="font-size:20px">Accuracy for Model 2</p>
           <p style="font-size:15px">Before validating the entire test data set,first lets see if the model is
             able to predict based on the ground truth on test data</p>
           <p>Ground truth</p>
-          <img src = "images/groundtruth_4_layer.jpg" alt="Image11" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/groundtruth_4_layer.JPG" alt="Image11" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <p>Predicted Classes</p>
-          <img src = "images/predicted_4_layers.jpg" alt="Image11" width="700" height="200" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/predicted_4_layers.JPG" alt="Image11" width="700" height="200" style="margin-left: auto;margin-right: auto;display: block"></img>
 
           <h1 class="h4 mt-0 title"> Model 2 Accuracy</h1>
           <p>Now we know that the model is not overfitted, The accuracy has increased after adding 4 convolution layers, 3 filters and more fully connected layers .</p>
-          <img src = "images/model_4_layer_accuracy.jpg" alt="Image12" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/model_4_layer_accuracy.JPG" alt="Image12" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
 
          <h2 class="h4 mt-0 title">Conclusion</h2>
          <p style="font-size:15px">The model performed well, achieving an accuracy of 53.6% compared to a baseline of 10%, since there are 10 categories in CIFAR-10, if the model guessed randomly.
