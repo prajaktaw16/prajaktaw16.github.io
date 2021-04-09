@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This is Prajakta</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Portfolio</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html">Go Back to Home Page</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images\Profile_Image.jpg" alt="Image"/></a></div>
+          <div class="h2 title">Prajakta Waikar</div>
+          <p class="category text-white">Automation Developer, Python, JAVA</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="Prajakta Resume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Resume</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/prajakta-waikar-38b2499b/" rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/prajaktaw1" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="20">
+        <div>
+          <div class="card-body">
+            <div class="h4 mt-0 title">CIFAR-10 Image Classification using CNN</div>
+            <p>We will use PyTorch to construct a convolutional neural network.
+              We will then train the CNN on the CIFAR-10 data set to be able to classify images from the CIFAR-10
+              testing set into the ten categories present in the data set.</p>
+            <p>The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+The dataset is divided into five training batches and one test batch, each with 10000 images.
+The test batch contains exactly 1000 randomly-selected images from each class.
+The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another.
+Between them, the training batches contain exactly 5000 images from each class</p>
+<p style="font-size:10px">reference - https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py</p>
+<a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 Website</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">CIFAR-10 image classifier.</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+          <h1 class="h4 mt-0 title">Step 1</h1>
+          <p style="font-size:15px">Let's take a look at CIFAR-10 dataset classes.</p>
+          <img src = "images/CIFAR.JPG" alt="Image1" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Step 2</h1>
+          <p style="font-size:15px">Lets import libraries</p>
+          <img src = "images/imports.JPG" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Step 3</h1>
+          <p style="font-size:15px">Load Training Data</p>
+          <p>Convert Python Image Library (PIL) format to PyTorch tensors</p>
+          <p>Normalize the data by specifying a mean and standard deviation for each of the three channels.This will convert the data from [0,1] to [-1,1]</p>
+          <p>Normalization helps speed up further conversions</p>
+          <img src = "images/normalization.JPG" alt="Image2" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <img src = "images/normalization_op.JPG" alt="Image2" width="700" height="100" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Step 4</h1>
+          <p style="font-size:15px">Show some of the training images</p>
+          <img src = "images/displaydata.JPG" alt="Image3" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Step 5</h1>
+          <h2 class="h4 mt-0 title">Define a Convolutional Neural Network.</h2>
+          <p style="font-size:15px">CNN stands for Convolutional Neural Network which is a specialized neural network for processing data that has an input shape like a 2D matrix like images.
+          CNN’s are typically used for image detection and classification. Images are 2D matrix of pixels on which we run CNN to either recognize the image or to classify the image.
+          Identify if an image is of a human being, or car or just digits on an address.</p>
+          <p style="font-size:25px">What is a <a href="https://en.wikipedia.org/wiki/Convolution"> convolution?</a></p>
+          <p>Convolution is a mathematical operation where we have an input I, and an argument,
+          kernel K to produce an output that expresses how the shape of one is modified by another.</p>
+          <p style="font-size:25px">CNN</p>
+          <p>Convolutional Neural Networks take advantage of the fact that the input consists of images and they constrain the architecture in a more sensible way.
+            In particular, unlike a regular Neural Network, the layers of a ConvNet have neurons arranged in 3 dimensions: width, height, depth.
+          For example, the input images in CIFAR-10 are an input volume of activations, and the volume has dimensions 32x32x3 (width, height, depth respectively)</p>
+
+          <p style="font-size:20px">Layers used to build ConvNets</p>
+          <p>A simple ConvNet is a sequence of layers, and every layer of a ConvNet transforms one volume of activations to another through a differentiable function.
+             We use three main types of layers to build ConvNet architectures: Convolutional Layer, Pooling Layer, and Fully-Connected Layer.
+             We will stack these layers to form a full ConvNet architecture.</p>
+          <p><ul><li>INPUT [32x32x3] will hold the raw pixel values of the image, in this case an image of width 32, height 32, and with three color channels R,G,B.</li>
+            <li>CONV layer will compute the output of neurons that are connected to local regions in the input, each computing a dot product between their weights and a small region they are connected to in the input volume.
+              This may result in volume such as [32x32x6] if we decided to use 6 filters.</li>
+            <li>RELU layer will apply an elementwise activation function, such as the max(0,x) thresholding at zero. This leaves the size of the volume unchanged ([32x32x6]).</li>
+          <li>POOL layer will perform a downsampling operation along the spatial dimensions (width, height), resulting in volume such as [16x16x6].</li>
+        <li>The last fully-connected layer uses softmax and is made up of ten nodes, one for each category in CIFAR-10</li>
+        <li>Stride actually controls the number of steps that you move the filter over the input image. When the stride is 1, we move the filter one pixel at a time. When we set the stride to 2 or 3 (uncommon),
+          we move the filter 2 or 3 pixels at a time depending on the stride.The value of the stride also controls the size of the output volume generated by the convolutional layer.
+          Bigger the stride, smaller the output volume size.</li>
+          <li>Next important parameter is the zero padding. Zero padding refers to padding the input volume with zeros around the border. The zero padding also allows us to control the spatial size of the output volume. </li>
+          </ul></p>
+
+          <h2 class="h4 mt-0 title">CNN model 1</h2>
+          <p style="font-size:15px">Number of filters used here are 6, stride is 1 and padding 0. </p>
+          <img src = "images/model1.JPG" alt="Image5" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Original Model Accuracy</h1>
+          <p style="font-size:15px">Following image displays the accuracy of 10000 test images,
+          for 2 epochs. </p>
+          <img src = "images/accuracy_2epochs.JPG" alt="Image6" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title">Let's Improve Accuracy of our model</h1>
+          <p style="font-size:20px">Increase Epoch from 2 to 10.</p>
+          <p>One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE. </p>
+          <p>As the number of epochs increases, more number of times the weight are changed in the neural network and the curve goes from underfitting to optimal to overfitting curve.We need to make sure
+          that we are not overshooting the epoch number.For now we will use 10 and observe the losses and accuracy again</p>
+          <img src = "images/10_Epoch_Original.JPG" alt="Image7" width="700" height="80" style="margin-left: auto;margin-right: auto;display: block"></img>
+          <p style="font-size:20px">Accuracy for 10 epochs</p>
+          <p style="font-size:15px">Just by keeping the model same and increasing the epochs,we were able to train our model better and increase accuracy</p>
+          <img src = "images/accuracy_epoch10.JPG" alt="Image8" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <p style="font-size:20px">Lets increase convolutional ayers from 2 - 4</p>
+          <p style="font-size:15px">By Increasing the convolutional layers we increase the complexity of the network, thereby increasing the weights
+          in the network.
+          But one can only try increaing the layers if the dataset is large dataset like CIFAR-10, it will not work if the dataset is very small.
+        </p>
+          <img src = "images/model_4_layers.JPG" alt="Image9" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <p style="font-size:20px">Accuracy for Model 2</p>
+          <p style="font-size:15px">Before validating the entire test data set,first lets see if the model is
+            able to predict based on the ground truth on test data</p>
+          <p>Ground truth</p>
+          <img src = "images/groundtruth_4_layer.JPG" alt="Image11" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <p>Predicted Classes</p>
+          <img src = "images/predicted_4_layers.JPG" alt="Image11" width="700" height="200" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+          <h1 class="h4 mt-0 title"> Model 2 Accuracy</h1>
+          <p>Now we know that the model is not overfitted, The accuracy has increased after adding 4 convolution layers, 3 filters and more fully connected layers .</p>
+          <img src = "images/model_4_layer_accuracy.JPG" alt="Image12" width="700" height="400" style="margin-left: auto;margin-right: auto;display: block"></img>
+
+         <h2 class="h4 mt-0 title">Conclusion</h2>
+         <p style="font-size:15px">The model performed well, achieving an accuracy of 53.6% compared to a baseline of 10%, since there are 10 categories in CIFAR-10, if the model guessed randomly.
+         To improve the performance we can try adding convolution layers, more filters or more fully connected layers.
+         We also train the model for more than two epochs while making sure, not to overfit the training data </p>
+
+         <h2 class="h4 mt-0 title">References</h2>
+         <p style="font-size:15px"><li>https://www.stefanfiott.com/machine-learning/cifar-10-classifier-using-cnn-in-pytorch/</li>
+           <li>https://medium.datadriveninvestor.com/convolutional-neural-network-cnn-simplified-ecafd4ee52c5</li>
+           <li>https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac</li>
+           <li>https://cs231n.github.io/convolutional-networks/</li>
+           <li>https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks</li>
+        </p>
+</div>
+</div>
+    <footer class="footer">
+      <div class="container text-center"><a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/prajakta-waikar-38b2499b/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="https://twitter.com/prajaktaw1"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Prajakta Waikar</div>
+      <div class="text-center text-muted">
+        <p>&copy;Prajakta Waikar. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+</html>
